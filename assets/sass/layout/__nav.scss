@@ -1,0 +1,25 @@
+.navbar {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+.navbar__logo {
+  display: grid;
+  & p {
+    font-size: 10px;
+    margin-left: 80px;
+    text-align: end;
+  }
+  & h1 {
+    margin-top: -24px;
+    font-weight: $bold;
+  }
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar__icon {
+  margin-right: 20px;
+}

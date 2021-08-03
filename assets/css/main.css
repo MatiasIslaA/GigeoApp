@@ -1,0 +1,127 @@
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar__logo {
+  display: grid;
+}
+.navbar__logo p {
+  font-size: 10px;
+  margin-left: 80px;
+  text-align: end;
+}
+.navbar__logo h1 {
+  margin-top: -24px;
+  font-weight: 600;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar__icon {
+  margin-right: 20px;
+}
+
+.header__banner {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  object-position: center 55%;
+}
+
+@media (min-width: 992px) {
+  .header__banner {
+    height: 200px;
+    object-position: center 50%;
+  }
+}
+.profile {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 37px;
+  padding-left: 37px;
+}
+
+.profile__picture {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.profile__information h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
+  font-weight: 700;
+}
+.profile__information h4 {
+  margin-top: -7px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+}
+
+.videos {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 35px;
+  padding-right: 37px;
+  padding-left: 37px;
+}
+.videos h3 {
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.videos__picture {
+  width: 100%;
+  height: auto;
+}
+
+.videos__item h4 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.videos__item h5 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .videos {
+    padding-top: 25px;
+  }
+  .videos h3 {
+    text-align: left;
+  }
+
+  .videos__picture {
+    height: 61%;
+  }
+}
+.profile__buttons {
+  padding-top: 30px;
+  padding-right: 45px;
+}
+.profile__buttons button {
+  border: none;
+  padding: 7px;
+  color: white;
+  width: 90px;
+}
+
+.profile__message {
+  background-color: #92dce5;
+}
+
+.profile__follow {
+  background-color: #ef6461;
+}
+
+/*# sourceMappingURL=main.css.map */

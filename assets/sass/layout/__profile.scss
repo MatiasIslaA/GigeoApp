@@ -1,0 +1,26 @@
+.profile {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 37px;
+  padding-left: 37px;
+}
+.profile__picture {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.profile__information {
+  & h3 {
+    font-family: $montserrat;
+    margin-top: 5px;
+    font-weight: $bolder;
+  }
+  & h4 {
+    margin-top: -7px;
+    font-weight: $regular;
+    font-size: 16px;
+    color: $grey;
+  }
+}
